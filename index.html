@@ -1,42 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="gallery.css">
-    </head>
-    <body>
-        <!-- Display Area for Hovered Image -->
-    <div id="image">Hover mouse over an image<br> below to display here.🖱️</div>
 
-        <!-- Image Gallery -->
-    <div class="gallery">
-        <img class="preview" 
-        src="https://plus.unsplash.com/premium_photo-1668024966086-bd66ba04262f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2NlbmVyeXxlbnwwfHwwfHx8MA%3D%3D" 
-        alt="Beautiful Morning Lake.🏞️" onmouseover="upDate(this)" onmouseout="undo()">
-        <img class="preview" 
-        src="https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg" 
-        alt="Fuji Mountain at sunset.🌄" onmouseover="upDate(this)" onmouseout="undo()">
-        <img class="preview" 
-        src="https://img.freepik.com/free-photo/beautiful-cherry-blossoms-trees-blooming-spring_335224-878.jpg?t=st=1741794354~exp=1741797954~hmac=42817f2f99374ad63d3bb21cf9f0a948a026193d67cfa203cd1a814d24d6419b&w=1380" 
-        alt="Cherry Blossoms are blooming in spring.🌸" onmouseover="upDate(this)" onmouseout="undo()">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="top">Colors!</h1>
+  </header>
+
+  <main>
+    <h2>Basic Media Queries</h2>
+    <p>In this assignment you will add two media queries to the css file.</p>
+    <ul>
+      <li>The first media query should trigger at 772px and change the layout of the divs to be 45% of the viewport width. The images should have a maximum height of 30% of the viewport height.</li>
+
+      <li>The second media query should trigger at 998px and change the layout of the divs to be 30% of the viewport width.</li>
+    </ul>
+    <p>You will need to make additional changes to ensure that the divs appear next to each other and that the images are contained within the divs.  Some of these properties include display, width and max-height.</p>
+
+    <div>
+      <img src="images/Red.jpeg" alt="Red" width="200">
+      <p class = "label">Red</p>
     </div>
-
-    <div class="gallery">
-        <img class="preview" 
-        src="https://wallpapers.com/images/hd/dark-anime-scenery-wot9wg412s7h8yxa.jpg" 
-        alt="Gorgeous Shooting Stars in Night Sky.🌃" onmouseover="upDate(this)" onmouseout="undo()">
-        <img class="preview" 
-        src="https://wallpapers.com/images/high/dark-anime-scenery-hcpl6fprrkjxmv8c.webp" 
-        alt="nice!" onmouseover="upDate(this)" onmouseout="undo()">
-        <img class="preview" 
-        src="https://wallpapers.com/images/high/dark-anime-scenery-aw3t64fvy9jg712e.webp" 
-        alt="NICE!🌆" onmouseover="upDate(this)" onmouseout="undo()">
+    <div>
+      <img src="images/Orange.png" alt="Orange" width="200">
+      <p class = "label">Orange</p>
     </div>
-        <h5><a href="https://github.com/TheAnNguyenNgoc369/JavaScript-Module-2-Coursera">Click here to see the code.</a></h5>
+    <div>
+      <img src="images/Yellow.png" alt="Yellow" width="200">
+      <p class = "label">Yellow</p>
+    </div>
+    <div>
+      <img src="images/Green.png" alt="Green" width="200">
+      <p class = "label">Green</p>
+    </div>
+    <div>
+      <img src="images/Blue.png" alt="Blue" width="200">
+      <p class = "label">Blue</p>
+    </div>
+    <div>
+      <img src="images/Indigo.jpeg" alt="Indigo" width="200">
+      <p class = "label">Indigo</p>
+    </div>
+    <div>
+      <img src="images/Purple.png" alt="Purple" width="200">
+      <p class = "label">Purple</p>
+    </div>
+    <div>
+      <img src="images/Pink.jpeg" alt="Pink" width="200">
+      <p class = "label">Pink</p>
+    </div>
+    <div>
+      <img src="images/White.png" alt="White" width="200">
+      <p class = "label">White</p>
+    </div>
+    </div>
+  </main>
 
-        <script src="gallery.js"></script>
-    </body>
+  <footer>
+    <a href="#top">Jump to the Top</a>
+    <a href="">Link to the source code.</a>
+  </footer>
+</body>
+
 </html>
